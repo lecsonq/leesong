@@ -1,0 +1,41 @@
+body {
+  width: fit-content;
+}
+
+.title {
+  position: fixed;
+  top: 37px;
+  left: 37px;
+}
+
+h1 { 
+  font-family: IBM Plex Mono;
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 0.15em;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 50px;
+}
+
+.content {
+  padding: 200px;
+}
+
+figcaption {
+  font-family: courier;
+  font-size: 10px;
+  line-height: 13px;
+  margin-top: 4px;
+}
+
+.image-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 100px;
+}
+
+.still-image {
+  height: 300px;
+}
