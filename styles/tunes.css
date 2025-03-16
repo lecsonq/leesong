@@ -35,7 +35,7 @@ p {
   border: none;
 }
 
-.media-grid {
+.content {
   display: grid;
   row-gap: 70px;
   justify-content: center;
