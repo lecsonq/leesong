@@ -1,6 +1,6 @@
 body {
 padding: 37px;
-height: 2000px;
+height: 1200px;
 }
 
 .title {
@@ -33,6 +33,10 @@ p {
 .video {
   box-shadow: none;
   border: none;
+}
+
+.video-section {
+  margin-bottom: 40px;
 }
 
 .content {
