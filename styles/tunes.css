@@ -36,7 +36,6 @@ p {
 }
 
 .content {
-  display: grid;
-  row-gap: 70px;
+  padding-left: 100px;
   justify-content: center;
 }
