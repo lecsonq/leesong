@@ -5,6 +5,7 @@
 
 body {
   margin: 37px;
+  display: flex;
   justify-content: start;
   }
 
@@ -49,6 +50,7 @@ p {
 }
 
 .textbox{
+  display: flex;
   width: 800px;
   height:1500px;
   justify-content: right;
