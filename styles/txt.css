@@ -2,8 +2,18 @@ body {
   margin: 37px;
   justify-content: start;
   }
-  
+
 h1 {
+  font-family: IBM Plex Mono;
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 0.15em;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 50px;
+}
+
+h2 {
   font-family: helvetica;
   font-size: 19px;
   font-weight: 400;
@@ -18,6 +28,18 @@ p {
   line-height: 16px;
   color: rgba(0, 0, 0, 0.8);
   width: 750px;
+}
+
+.text-titles {
+  width: 420px;
+  margin: 0px;
+}
+
+.textbox{
+  width: 800px;
+  height:1500px;
+  justify-content: right;
+  overflow: scroll;
 }
 
 .highlight {
