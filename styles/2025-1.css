@@ -6,15 +6,15 @@ body {
 .back {
   display: block;
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 20px;
+  left: 20px;
 }
 
 .back-link {
   text-decoration: none;
   font-size:11px;
   letter-spacing: 0.2em;
-  color:  rgb(67, 63, 84);
+  color: white;
   font-family: futura;
 }
 
@@ -22,7 +22,7 @@ body {
   text-decoration: none;
   font-size:11px;
   letter-spacing: 0.2em;
-  color:  rgb(67, 63, 84);
+  color: white;
   font-family: futura;
 }
 
