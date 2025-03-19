@@ -39,7 +39,7 @@ p {
 
 .sidebar {
   display: grid;
-  grid-template-rows: 400px 1fr ;
+  grid-template-rows: 160px 1fr ;
 }
 
 .text-titles {
@@ -50,13 +50,14 @@ p {
 .title-link {
   display: block;
   font-family: IBM Plex Mono;
-  font-size:9px;
+  font-size:11px;
   color:rgba(0, 0, 0, 0.80);
   text-decoration: none;
 }
 
 .textbox{
   width: 600px;
+  height: 800px;
   display: grid;
   grid-template-rows: 400px 1000px;
   overflow: scroll;
