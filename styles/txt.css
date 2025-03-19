@@ -7,7 +7,7 @@ body {
   margin: 37px;
   justify-content: start;
   display: grid;
-  grid-template-columns: 500px 1fr;
+  grid-template-columns: 800px 1fr;
   }
 
 h1 {
@@ -57,8 +57,8 @@ p {
 
 .textbox{
   width: 600px;
-  height: 800px;
   display: grid;
+  grid-template-rows: 400px 1000px;
   overflow: scroll;
 }
 
