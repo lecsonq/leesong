@@ -35,8 +35,8 @@ p {
   font-size: 12px;
   line-height: 16px;
   color: rgba(0, 0, 0, 0.8);
-  width: 750px;
   margin: 0;
+  text-wrap: pretty;
 }
 
 .sidebar {
@@ -46,6 +46,7 @@ p {
 
 .text-titles {
   display: grid;
+  grid-template-columns: auto;
   width: 420px;
   margin: 0px;
 }
@@ -67,4 +68,20 @@ p {
 
 .highlight {
   background-color:rgba(187, 251, 192, 0.475);
+}
+
+.back-link {
+  text-decoration: none;
+  font-size:13px;
+  letter-spacing: 0.2em;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: futura;
+}
+
+.back-link:active {
+  text-decoration: none;
+  font-size:13px;
+  letter-spacing: 0.2em;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: futura;
 }

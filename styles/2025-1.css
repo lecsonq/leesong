@@ -12,17 +12,17 @@ body {
 
 .back-link {
   text-decoration: none;
-  font-size:20px;
+  font-size:13px;
   letter-spacing: 0.2em;
-  color: white;
+  color: rgba(0, 0, 0, 0.7);
   font-family: futura;
 }
 
 .back-link:active {
   text-decoration: none;
-  font-size:11px;
+  font-size:13px;
   letter-spacing: 0.2em;
-  color: white;
+  color: rgba(0, 0, 0, 0.7);
   font-family: futura;
 }
 
@@ -87,8 +87,4 @@ p {
 
 .highlight {
   background-color: rgba(187, 251, 192, 0.475);
-}
-
-.italic {
-  font-style: italic;
 }
