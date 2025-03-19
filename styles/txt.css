@@ -1,5 +1,6 @@
 body {
   margin: 37px;
+  justify-content: start;
   }
   
 h1 {
@@ -16,6 +17,7 @@ p {
   font-size: 12px;
   line-height: 16px;
   color: rgba(0, 0, 0, 0.8);
+  width: 800px;
 }
 
 .highlight {
