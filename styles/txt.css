@@ -6,6 +6,8 @@
 body {
   margin: 37px;
   justify-content: start;
+  display: grid;
+  grid-template-columns: 400px 1fr;
   }
 
 h1 {
@@ -58,8 +60,6 @@ p {
   justify-content: right;
   overflow: scroll;
 }
-
-.sideba
 
 .highlight {
   background-color:rgba(187, 251, 192, 0.475);
