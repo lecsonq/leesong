@@ -1,3 +1,8 @@
+@font-face {
+  font-family: IBM Plex Mono;
+  src: url(IBMPlexMono-Regular.ttf);
+}
+
 body {
   margin: 37px;
   justify-content: start;
