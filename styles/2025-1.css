@@ -66,24 +66,17 @@ p {
 
 .january {
   border-right:0.3px solid rgb(103, 103, 113);
-  background-color:rgba(169, 192, 226, 0.35);
   padding-top: 30px;
   padding-left: 30px;
   padding-right: 30px;
 }
 
 .february {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 30px;
-  padding-right: 20px;
+  background-color:rgb(243, 247, 253);
 }
 
 .march {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 20px;
-  padding-right: 40px;
+  background-color:rgb(243, 247, 253);
 }
 
 .highlight {
