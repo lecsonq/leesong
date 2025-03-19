@@ -53,8 +53,9 @@ p {
 }
 
 .textbox{
-  display: flex;
-  justify-content: right;
+  width: 600px;
+  height: 800px;
+  display: grid;
   overflow: scroll;
 }
 
