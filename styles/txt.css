@@ -38,6 +38,11 @@ p {
   width: 750px;
 }
 
+.sidebar {
+  display: grid;
+  grid-template-rows: auto;
+}
+
 .text-titles {
   display: grid;
   width: 420px;
