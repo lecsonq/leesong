@@ -40,7 +40,6 @@ p {
 
 .text-titles {
   display: grid;
-  grid-template-rows:
   width: 420px;
   margin: 0px;
 }
