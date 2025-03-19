@@ -6,6 +6,7 @@
 body {
   margin: 37px;
   display: flex;
+  flex-direction: column;
   justify-content: start;
   }
 
@@ -43,6 +44,7 @@ p {
 }
 
 .title-link {
+  display: block;
   font-family: IBM Plex Mono;
   font-size:12px;
   color:rgba(0, 0, 0, 0.80);
