@@ -36,6 +36,7 @@ p {
   line-height: 16px;
   color: rgba(0, 0, 0, 0.8);
   width: 750px;
+  margin: 0;
 }
 
 .sidebar {
@@ -52,7 +53,7 @@ p {
 .title-link {
   display: block;
   font-family: IBM Plex Mono;
-  font-size:12px;
+  font-size:9px;
   color:rgba(0, 0, 0, 0.80);
   text-decoration: none;
 }
