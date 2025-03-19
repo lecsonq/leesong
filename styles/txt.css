@@ -41,7 +41,6 @@ p {
 
 .sidebar {
   display: grid;
-  grid-template-rows: auto;
 }
 
 .text-titles {
