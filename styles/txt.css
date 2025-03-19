@@ -42,11 +42,6 @@ p {
   grid-template-rows: 160px 1fr ;
 }
 
-.text-titles {
-  width: 420px;
-  margin: 0px;
-}
-
 .title-link {
   display: block;
   font-family: IBM Plex Mono;
@@ -59,7 +54,7 @@ p {
   width: 600px;
   height: 800px;
   display: grid;
-  grid-template-rows: 400px 1000px;
+  grid-template-rows: 160px 1000px;
   overflow: scroll;
 }
 
