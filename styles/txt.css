@@ -5,8 +5,6 @@
 
 body {
   margin: 37px;
-  display: flex;
-  flex-direction: column;
   justify-content: start;
   }
 
@@ -39,6 +37,7 @@ p {
 
 .text-titles {
   display: flex;
+  flex-direction: row;
   width: 420px;
   margin: 0px;
 }
@@ -53,11 +52,14 @@ p {
 
 .textbox{
   display: flex;
+  flex-direction: row;
   width: 800px;
   height:1500px;
   justify-content: right;
   overflow: scroll;
 }
+
+.sideba
 
 .highlight {
   background-color:rgba(187, 251, 192, 0.475);
