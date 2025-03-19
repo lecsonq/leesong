@@ -4,15 +4,20 @@ body {
 }
 
 .back {
-  display: inline-block;
-  font-family: futura;
-  font-size:11px;
-  letter-spacing: 0.2em;
-  color:  rgb(67, 63, 84);
+  display: block;
   position: absolute;
   top: 10px;
   left: 10px;
 }
+
+.back-link {
+  text-decoration: none;
+  font-size:11px;
+  letter-spacing: 0.2em;
+  color:  rgb(67, 63, 84);
+  font-family: futura;
+}
+
 .content {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
