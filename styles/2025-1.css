@@ -18,6 +18,14 @@ body {
   font-family: futura;
 }
 
+.back-link:active {
+  text-decoration: none;
+  font-size:11px;
+  letter-spacing: 0.2em;
+  color:  rgb(67, 63, 84);
+  font-family: futura;
+}
+
 .content {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
