@@ -47,6 +47,7 @@ p {
   font-size: 12px;
   line-height: 16px;
   color: rgba(0, 0, 0, 0.8);
+  margin: 0;
 }
 
 .sidebar {
@@ -71,8 +72,6 @@ p {
 }
 
 .textbox{
-  width: 600px;
-  height: 800px;
   position: relative;
 }
 
