@@ -21,7 +21,7 @@ h1 {
 }
 
 h2 {
-  font-family: helvetica;
+  font-family: IBM Plex Mono;
   font-size: 19px;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.8);
@@ -43,7 +43,7 @@ h2 {
 }
 
 p {
-  font-family: helvetica;
+  font-family: IBM Plex Mono;
   font-size: 12px;
   line-height: 16px;
   color: rgba(0, 0, 0, 0.8);
