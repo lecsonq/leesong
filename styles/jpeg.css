@@ -51,3 +51,16 @@ figcaption {
   margin-top: 2px;
   text-align: right;
 }
+
+.back-link,
+.back-link:active {
+  text-decoration: none;
+  display: block;
+  font-size:13px;
+  letter-spacing: 0.2em;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: futura;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
