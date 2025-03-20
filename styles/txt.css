@@ -60,6 +60,20 @@ p {
   margin-bottom: 3px;
 }
 
+.title-link:hover::before {
+  background-color: transparent;
+}
+
+.title-link:hover {
+  display: block;
+  font-family: IBM Plex Mono;
+  font-size:11px;
+  color:rgba(0, 0, 0, 0.80);
+  text-decoration: none;
+  margin-bottom: 3px;
+  background-color: rgba(239, 251, 219, 0.912);
+}
+
 .text-content {
   overflow: scroll;
   width: 600px;
