@@ -47,7 +47,7 @@ p {
 }
 
 .content {
-  overflow: auto;
+  overflow: scroll;
   height: 300px;
   width: 1200px;
 }
