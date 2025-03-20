@@ -5,6 +5,7 @@ body {
 }
 
 .title {
+  display:inline-block;
   position: fixed;
   top: 37px;
   left: 37px;
