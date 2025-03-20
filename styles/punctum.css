@@ -40,7 +40,6 @@ p {
 }
 
 .image-flex {
-  margin-top: 200px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
