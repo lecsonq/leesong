@@ -74,12 +74,6 @@ p {
   background-color: rgba(239, 251, 219, 0.912);
 }
 
-.text-titles {
- display: grid;
- grid-template-rows: 11px 11px 11px 11px 11px 1fr;
-
-}
-
 .text-content {
   overflow: scroll;
   width: 600px;
