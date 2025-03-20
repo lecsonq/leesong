@@ -67,13 +67,12 @@ p {
   width: 600px;
   height: 800px;
   text-wrap: pretty;
+  margin-top: 160px;
 }
 
 .textbox{
   width: 600px;
   height: 800px;
-  display: grid;
-  grid-template-rows: 160px 1fr;
   position: relative;
 }
 
