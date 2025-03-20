@@ -5,9 +5,7 @@ height: 1200px;
 }
 
 .title {
-  position: absolute;
-  top: 40px;
-  left: 40px;
+  display: lock;
   line-height: 20px;
   font-family: IBM Plex Mono;
   font-size: 30px;
