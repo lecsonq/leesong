@@ -71,7 +71,7 @@ p {
   color:rgba(0, 0, 0, 0.80);
   text-decoration: none;
   margin-bottom: 3px;
-  background-color: rgba(239, 251, 219, 0.912);
+  background-color: rgba(145, 178, 222, 0.34);
 }
 
 .text-content {
@@ -87,7 +87,7 @@ p {
 }
 
 .highlight {
-  background-color:rgba(187, 251, 192, 0.475);
+  background-color:rgba(145, 178, 222, 0.34);
 }
 
 .back-link,
