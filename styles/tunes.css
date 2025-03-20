@@ -50,7 +50,6 @@ p {
 .back-link,
 .back-link:active {
   text-decoration: none;
-  display: block;
   font-size:13px;
   letter-spacing: 0.2em;
   color: rgba(0, 0, 0, 0.7);
