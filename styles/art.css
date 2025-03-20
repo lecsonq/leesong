@@ -1,14 +1,11 @@
 body {
-margin-right: 100px;
-margin-left: 50px;
+margin: 37px;
 padding:50px;
 height:2500px;
 }
 
 .title {
-  position: fixed;
-  top: 37px;
-  left: 37px;
+  display: inline-block;
   line-height: 20px;
 }
 
