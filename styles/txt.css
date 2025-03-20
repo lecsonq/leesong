@@ -32,12 +32,22 @@ h2 {
   left:0px;
 }
 
+.title {
+  display: inline-block;
+  font-family: IBM Plex Mono;
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 0.15em;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
 p {
   font-family: helvetica;
   font-size: 12px;
   line-height: 16px;
   color: rgba(0, 0, 0, 0.8);
-  margin: 0;
+  margin-top: 200px;
   overflow: scroll;
   width: 600px;
   height: 800px;
@@ -71,6 +81,7 @@ p {
 
 .back-link {
   text-decoration: none;
+  display: block;
   font-size:13px;
   letter-spacing: 0.2em;
   color: rgba(0, 0, 0, 0.7);
