@@ -44,8 +44,11 @@ p {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 300px;
+}
+
+.content {
   overflow: auto;
+  height: 300px;
 }
 
 figcaption {
