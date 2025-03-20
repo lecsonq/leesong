@@ -5,10 +5,6 @@ body {
 
 .title {
   display: inline-block;
-  position: absolute;
-  line-height: 20px;
-  top: 37px;
-  left: 37px;
 }
 
 h1 {
@@ -45,6 +41,7 @@ p {
 }
 
 .content {
+  margin-top: 300px;
   overflow: scroll;
   height: 300px;
   width: 800px;
