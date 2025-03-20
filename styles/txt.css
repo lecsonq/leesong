@@ -47,16 +47,11 @@ p {
   font-size: 12px;
   line-height: 16px;
   color: rgba(0, 0, 0, 0.8);
-  margin-top: 160px;
-  overflow: scroll;
-  width: 600px;
-  height: 800px;
-  text-wrap: pretty;
 }
 
 .sidebar {
   display: grid;
-  grid-template-rows: 160px 1fr ;
+  grid-template-rows: 160px 1fr;
 }
 
 .title-link {
@@ -67,11 +62,18 @@ p {
   text-decoration: none;
 }
 
+.text-content {
+  overflow: scroll;
+  width: 600px;
+  height: 800px;
+  text-wrap: pretty;
+}
+
 .textbox{
   width: 600px;
   height: 800px;
   display: grid;
-  grid-template-rows: 160px 1000px;
+  grid-template-rows: 160px 1fr;
   position: relative;
 }
 
