@@ -76,7 +76,7 @@ p {
 
 .text-titles {
  display: grid;
- grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+ grid-template-rows: 11px 11px 11px 11px 11px 1fr;
 
 }
 
