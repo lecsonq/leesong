@@ -1,9 +1,11 @@
 body {
+margin: 37px;
 padding: 100px;
 height: 1200px;
 }
 
 .title {
+  display: inline-block;
   position: absolute;
   top: 37px;
   left: 37px;
