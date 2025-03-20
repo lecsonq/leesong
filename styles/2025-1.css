@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0px;
-  background-color:rgba(169, 192, 226, 0.35);
+  background-color: rgba(242, 242, 242, 0.3);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -64,6 +64,7 @@ p {
 
 .january {
   border-right:0.3px solid rgb(103, 103, 113);
+  background-color:rgba(169, 192, 226, 0.35);
   padding: 30px;
 }
 
