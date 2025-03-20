@@ -2,6 +2,8 @@ body {
   margin: 0;
   padding: 0px;
   background-color:rgba(169, 192, 226, 0.35);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .back {
@@ -25,11 +27,6 @@ body {
   letter-spacing: 0.2em;
   color: rgba(0, 0, 0, 0.7);
   font-family: futura;
-}
-
-.content {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
 }
 
 figcaption {
