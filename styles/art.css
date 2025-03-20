@@ -6,6 +6,9 @@ height:2500px;
 
 .title {
   display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
   line-height: 20px;
 }
 
