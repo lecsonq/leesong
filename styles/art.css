@@ -9,6 +9,7 @@ height:2500px;
   position: fixed;
   top: 37px;
   left: 37px;
+  line-height: 20px;
 }
 
 h1 {

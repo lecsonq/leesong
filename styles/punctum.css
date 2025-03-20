@@ -8,6 +8,7 @@ body {
 .title {
   display: inline-block;
   position: absolute;
+  line-height: 20px;
   top: 37px;
   left: 37px;
 }
