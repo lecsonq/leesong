@@ -28,18 +28,18 @@ h1 {
 }
 
 h2 {
-  font-family: courier;
+  font-family: IBM Plex Mono;
   font-size: 13px;
 }
 
 p {
-  font-family: courier;
+  font-family: IBM Plex Mono;
   font-size: 11px;
   line-height: 18px;
 }
 
 figcaption {
-  font-family: Courier;
+  font-family: IBM Plex Mono;
   font-size: 10px;
   line-height: 13px;
   margin-top: 2px;
