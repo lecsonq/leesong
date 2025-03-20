@@ -28,7 +28,7 @@ h2 {
 }
 
 .title {
-  position: fixed;
+  position: absolute;
   font-family:IBM Plex Mono;
   top: 40px;
   left: 40px;
