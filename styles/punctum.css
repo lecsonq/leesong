@@ -2,12 +2,12 @@ body {
   margin: 37px;
   padding: 100px;
   width: fit-content;
-  margin-top: 200px;
   height:400px;
   }
 
 .title {
-  position: fixed;
+  display: inline-block;
+  position: absolute;
   top: 37px;
   left: 37px;
 }
@@ -40,6 +40,7 @@ p {
 }
 
 .image-flex {
+  margin-top: 200px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
