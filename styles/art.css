@@ -1,7 +1,7 @@
 body {
-margin: 37px;
-padding:50px;
-height:2500px;
+padding: 80px;
+height:fit-content;
+margin-top: 65px;
 }
 
 .title {

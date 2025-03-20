@@ -1,7 +1,5 @@
 body {
-  margin: 37px;
-  padding: 40px;
-  margin-right: 100px;
+  margin-top: 65px;
 }
 
 .title {
@@ -49,6 +47,7 @@ figure {
   column-gap: 100px;
   row-gap: 150px;
   justify-content: space-between;
+  padding: 100px;
 }
 
 figcaption {
