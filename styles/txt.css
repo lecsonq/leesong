@@ -52,7 +52,7 @@ p {
 }
 
 .title-link {
-  display: block;
+  display: inline-block;
   font-family: IBM Plex Mono;
   font-size:11px;
   color:rgba(0, 0, 0, 0.80);
@@ -72,6 +72,12 @@ p {
   text-decoration: none;
   margin-bottom: 3px;
   background-color: rgba(239, 251, 219, 0.912);
+}
+
+.text-titles {
+ display: grid;
+ grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
 }
 
 .text-content {
