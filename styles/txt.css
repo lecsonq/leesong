@@ -3,7 +3,8 @@ body {
   justify-content: start;
   display: grid;
   grid-template-columns: 600px 600px;
-  }
+  column-gap: 15px;
+}
 
 h1 {
   display: inline-block;
