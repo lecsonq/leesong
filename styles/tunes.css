@@ -1,7 +1,7 @@
 body {
 margin: 37px;
 padding: 100px;
-height: 1200px;
+height: fit-content;
 }
 
 .title {
