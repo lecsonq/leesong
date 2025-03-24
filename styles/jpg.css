@@ -41,6 +41,15 @@ figure {
   height: auto;
 }
 
+input [type=checkbox] {
+  display: none;
+}
+
+input [type=checkbox]: checked ~ label {
+  scale: (2)
+}
+
+
 .jpeg-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
