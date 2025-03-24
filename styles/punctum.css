@@ -47,7 +47,6 @@ p {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  cursor: zoom-in;
 }
 
 .content {
@@ -57,15 +56,6 @@ p {
   margin-top: 300px;
   overflow: scroll;
   height: 300px;
-}
-
-input [type=checkbox] {
-  display: none;
-}
-
-input [type=checkbox]:checked ~ label {
-  scale: (1.5);
-  cursor: zoom-out;
 }
 
 figcaption {
