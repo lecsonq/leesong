@@ -36,10 +36,7 @@ figure {
   margin: auto;
 }
 
-.jpeg {
-}
-
-.jpeg-grid img {
+img {
   height: auto;
   max-width: 100%;
 }
@@ -48,8 +45,9 @@ figure {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 100px;
-  row-gap: 150px;
+  row-gap: 100px;
   justify-content: space-between;
+  justify-items: center;
   padding: 100px;
 }
 
