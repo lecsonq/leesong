@@ -1,9 +1,9 @@
 body {
   margin: 37px;
   justify-content: start;
-  display: grid;
-  grid-template-columns: 600px 600px;
-  column-gap: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
 }
 
 h1 {
