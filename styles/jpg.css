@@ -37,11 +37,12 @@ figure {
 }
 
 .jpeg {
-  height: auto;
-  max-width: 100%;
-  margin: auto;
 }
 
+.jpeg-grid img {
+  height: auto;
+  max-width: 100%;
+}
 
 .jpeg-grid {
   display: grid;
