@@ -36,19 +36,10 @@ figure {
   margin: auto;
 }
 
-.jpeg {
+.jpeg-grid img {
   max-width:100%;
   height: auto;
 }
-
-input [type=checkbox] {
-  display: none;
-}
-
-input [type=checkbox]:checked ~ label {
-  scale: (2)
-}
-
 
 .jpeg-grid {
   display: grid;
