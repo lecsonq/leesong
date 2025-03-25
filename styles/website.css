@@ -111,12 +111,12 @@ p{
 
 .journals-1 {
   display:flex;
-  justify-content: center;
+  justify-content: left;
 }
 
 .journals-2 {
   display:flex;
-  justify-content: center;
+  justify-content: left;
   flex-shrink: 0;
 }
 
