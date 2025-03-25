@@ -233,11 +233,6 @@ p{
   color:rgb(94, 89, 119);
 }
 
-.jpeg {
-  height: auto;
-  max-width: 100%;
-}
-
 .container input {
   position: absolute;
   opacity: 0;

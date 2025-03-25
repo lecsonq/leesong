@@ -36,6 +36,12 @@ figure {
   margin: auto;
 }
 
+.jpeg {
+  height: auto;
+  max-width: 100%;
+}
+
+
 .jpeg-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
