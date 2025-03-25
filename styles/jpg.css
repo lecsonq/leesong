@@ -16,12 +16,6 @@ body {
   text-decoration: none;
 }
 
-.title,
-.title:visited {
-  color: rgba(0, 0, 0, 0.8);
-  text-decoration: none;
-}
-
 h1 {
   font-family: IBM Plex Mono;
   font-size: 30px;

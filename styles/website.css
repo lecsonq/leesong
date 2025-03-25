@@ -33,6 +33,12 @@ p{
   color: rgba(0, 0, 0, 0.8);
 }
 
+.title,
+.title:visited {
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+}
+
 .light-buttons {
   display: flex;
 }
