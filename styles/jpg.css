@@ -2,10 +2,6 @@ body {
   margin-top: 65px;
 }
 
-a:link {
-text-decoration: none;
-}
-
 .title {
   position: absolute;
   top: 40px;
@@ -16,6 +12,12 @@ text-decoration: none;
   font-weight: 300;
   letter-spacing: 0.15em;
   line-height: 20px;
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+}
+
+.title,
+.title:visited {
   color: rgba(0, 0, 0, 0.8);
   text-decoration: none;
 }
