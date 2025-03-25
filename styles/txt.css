@@ -78,7 +78,7 @@ p {
 .text-content {
   overflow: scroll;
   width: 600px;
-  height: 800px;
+  height: 600px;
   text-wrap: pretty;
   margin-top: 160px;
 }
