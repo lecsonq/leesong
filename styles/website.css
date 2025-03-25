@@ -184,13 +184,19 @@ p{
   flex-shrink: 0;
 }
 
+.journal-buttons {
+  position: absolute;
+  top: 120px;
+  right: 40px;
+}
+
 .archive-link:hover {
   color:rgb(229, 76, 34);
   background-color:  rgba(254, 215, 255, 0.754);
 }
 
 .today {
-  position: fixed;
+  position: absolute;
   top: 120px;
   left: 40px;
 }
