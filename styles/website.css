@@ -251,7 +251,6 @@ p{
 
 .container input:checked ~ .checkmark {
 background-color: transparent;
-border: solid rgb(22, 22, 57);
 }
 
 .checkmark:after {
