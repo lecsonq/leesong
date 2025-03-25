@@ -229,6 +229,11 @@ p{
   font-family: 'Courier New', Courier, monospace;
 }
 
+.jpeg {
+  height: auto;
+  max-width: 100%;
+}
+
 .container input {
   position: absolute;
   opacity: 0;
