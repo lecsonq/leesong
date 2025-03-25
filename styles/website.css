@@ -205,6 +205,9 @@ p{
   border: 0.7px solid rgb(94, 89, 119);
   flex-shrink: 0;
   margin: 0;
+  font-family: IBM Plex Mono;
+  line-height:24px;
+  color:rgb(94, 89, 119);
 }
 
 .small-title {
@@ -225,6 +228,9 @@ p{
   padding-left: 35px;
   margin-bottom: 12px;
   cursor: pointer;
+  font-family: IBM Plex Mono;
+  line-height:24px;
+  color:rgb(94, 89, 119);
 }
 
 .jpeg {
@@ -263,7 +269,6 @@ border: solid black 1px;
 .container input:checked ~ .checkmark:after {
  display: block;
 }
-
 
 .container .checkmark:after {
   left: 4px;
