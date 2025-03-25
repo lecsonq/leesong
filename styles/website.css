@@ -218,3 +218,58 @@ p{
 .highlight {
   background-color: white;
 }
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;      
+}
+
+.checkmark {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  height: 15px;
+  width: 15px;
+  border: solid black 1px;
+}
+
+.container input:checked ~ .checkmark {
+background-color: #ffffff;
+border: solid black 1px;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+ display: block;
+}
+
+
+.container .checkmark:after {
+  left: 4px;
+  top: 2px;
+  width: 6px;
+  height: 6px;
+  border: solid rgb(255, 255, 255);
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  }
