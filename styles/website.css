@@ -243,10 +243,10 @@ p{
 
 .checkmark {
   position: absolute;
-  top: 5px;
-  left: 5px;
-  height: 15px;
-  width: 15px;
+  top: 8px;
+  left: 1px;
+  height: 7px;
+  width: 7px;
   border: solid black 1px;
 }
 
@@ -266,12 +266,12 @@ border: solid black 1px;
 }
 
 .container .checkmark:after {
-  left: 4px;
-  top: 2px;
-  width: 6px;
-  height: 6px;
-  border: solid rgb(255, 255, 255);
-  border-width: 0 2px 2px 0;
+  left: 2px;
+  top: 0.5px;
+  width: 2px;
+  height: 3px;
+  border: solid rgb(22, 22, 57);
+  border-width: 0px 1.5px 1.5px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
