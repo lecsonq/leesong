@@ -6,6 +6,17 @@ body {
   background-color:rgba(242, 242, 242, 0.3);
 }
 
+.april,
+.may,
+.june {
+  padding: 30px;
+}
+
+.april,
+.may {
+  border-right: 0.3px solid rgb(103, 103, 113);
+}
+
 figcaption {
   font-family: Ballet;
   font-size: 17px;
@@ -41,15 +52,25 @@ p {
   background-color: rgba(187, 251, 192, 0.475);
 }
 
-.back-link,
-.back-link:active {
+.back {
+  display: inline-flex;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.back-link {
   text-decoration: none;
-  display: block;
   font-size:13px;
   letter-spacing: 0.2em;
   color: rgba(0, 0, 0, 0.7);
   font-family: futura;
-  position: absolute;
-  top: 20px;
-  left: 20px;
+}
+
+.back-link:active {
+  text-decoration: none;
+  font-size:13px;
+  letter-spacing: 0.2em;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: futura;
 }
