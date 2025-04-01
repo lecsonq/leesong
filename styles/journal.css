@@ -1,13 +1,9 @@
 body {
   margin: 0;
-  padding: 30px;
-  background-color: rgba(242, 242, 242, 0.3);
-}
-
-.content {
+  padding: 0px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-column: 40px;
+  background-color:rgba(242, 242, 242, 0.3);
 }
 
 figcaption {
@@ -43,10 +39,6 @@ p {
 
 .highlight {
   background-color: rgba(187, 251, 192, 0.475);
-}
-
-.italic {
-  font-style: italic;
 }
 
 .back-link,

@@ -140,7 +140,8 @@ p{
   flex-shrink: 0;
 }
 
-.quarter-1:hover {
+.quarter-1:hover,
+.quarter-2:hover {
   background-color:  rgba(50, 171, 109, 0.714);
   color: white;
 }
@@ -156,7 +157,6 @@ p{
   border-top: 0.2px;
   text-align: center;
   line-height: 95px;
-  background-color: rgba(230, 230, 230, 0.478);
   flex-shrink: 0;
 }
 
