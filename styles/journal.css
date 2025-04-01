@@ -12,11 +12,6 @@ body {
   padding: 30px;
 }
 
-.april,
-.may {
-  border-right: 0.3px solid rgb(103, 103, 113);
-}
-
 figcaption {
   font-family: Ballet;
   font-size: 17px;
