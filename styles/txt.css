@@ -110,3 +110,7 @@ p {
   align-items: start;
   text-wrap: balance;
 }
+
+img {
+  margin-top: 15px;
+}
