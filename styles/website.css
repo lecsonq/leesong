@@ -19,8 +19,8 @@ p{
   position: block;
   line-height: 20px;
   font-family: IBM Plex Mono;
-  font-size: 20px;
-  font-weight: 300;
+  font-size: 18px;
+  font-weight: 400;
   letter-spacing: 0.15em;
   line-height: 20px;
   color: rgba(0, 0, 0, 0.8);
@@ -38,7 +38,7 @@ p{
 
 .page-links {
   display: inline-block;
-  width: 100px;
+  width: 90px;
   line-height: 22px;
 }
 
@@ -75,35 +75,16 @@ p{
   text-decoration: none;
 }
 
-.works-button {
-  color:rgb(94, 89, 119);
-  border-color:rgb(94, 89, 119);
-  text-decoration: none;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 8px;
-  cursor:pointer;
-  border-style: dotted;
-  border-width: 1.7px;
-  font-family: Ballet;
-  font-size:20px;
-  transition: 0.15s;
-  position: absolute;
-  top: 145px;
-  left: 140px;
-}
-
-.works-button:hover {
-  background-color: rgba(176, 185, 197, 0.282);
-  text-underline-offset: 3px;
-}
-
 .archive-link {
   font-family: IBM plex mono;
-  font-size:12px;
+  font-size: 12px;
   text-decoration: none;
-  color:rgb(229, 76, 34);
+  color:rgba(0, 0, 0, 0.80);
   border:none;
+}
+
+.archive-link:hover {
+  background-color: rgba(176, 186, 255, 0.396);
 }
 
 .journals-1 {
@@ -132,7 +113,7 @@ p{
 
 .quarter-1:hover,
 .quarter-2:hover {
-  background-color:  rgba(50, 171, 109, 0.714);
+  background-color: rgba(89, 110, 98, 0.397);
   color: white;
 }
 
@@ -181,32 +162,26 @@ p{
   flex-shrink: 0;
 }
 
-.archive-link:hover {
-  color:rgb(229, 76, 34);
-  background-color:  rgba(254, 215, 255, 0.754);
-}
-
 .today-text {
-  color: rgb(22, 22, 57);
+  color:rgba(0, 0, 0, 0.80);
+  background-color: rgb(241, 241, 241);
   font-size: 11px;
   width: 240px;
-  padding: 30px;
+  padding: 25px;
   line-height: 20px;
   text-align: left;
-  background-color: rgba(145, 178, 222, 0.34);
-  border: 0.7px solid rgb(94, 89, 119);
   flex-shrink: 0;
   margin: 0;
   font-family: IBM Plex Mono;
   line-height:24px;
-  color:rgb(94, 89, 119);
+  color:rgba(0, 0, 0, 0.80);
 }
 
 .small-title {
   font-size: 11px;
   margin: 0;
   letter-spacing: 0.22em;
-  color: rgb(22, 22, 57);
+  color:rgba(0, 0, 0, 0.80);
 }
 
 .container {
@@ -216,7 +191,7 @@ p{
   cursor: pointer;
   font-family: IBM Plex Mono;
   line-height:24px;
-  color:rgb(94, 89, 119);
+  color:rgba(0, 0, 0, 0.80);
 }
 
 .container input {
@@ -233,7 +208,7 @@ p{
   left: 1px;
   height: 7px;
   width: 7px;
-  border: solid black 1px;
+  border: solid rgba(0, 0, 0, 0.80) 1px;
 }
 
 .container input:checked ~ .checkmark {
@@ -255,7 +230,7 @@ background-color: transparent;
   top: 0.5px;
   width: 2px;
   height: 3px;
-  border: solid rgb(22, 22, 57);
+  border: solid rgba(0, 0, 0, 0.80);
   border-width: 0px 1.5px 1.5px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
