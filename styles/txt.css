@@ -29,14 +29,15 @@ h2 {
 }
 
 .title {
-  position: absolute;
-  font-family:IBM Plex Mono;
-  top: 40px;
-  left: 40px;
-  font-size: 30px;
-  font-weight: 300;
+  position: block;
+  line-height: 20px;
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-weight: 400;
   letter-spacing: 0.15em;
+  line-height: 20px;
   color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
 }
 
 p {
