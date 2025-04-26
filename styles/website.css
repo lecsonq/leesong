@@ -1,6 +1,6 @@
 body {
-  height: 900px;
   margin: 0;
+  padding: 40px;
 }
 
 p{
@@ -9,24 +9,17 @@ p{
   color:rgb(94, 89, 119);
 }
 
-.header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-  flex: 1;
-  align-items: start;
-  position: fixed;
-  top: 40px;
-  left: 40px;
-  height: 90px;
+.main-grid {
+  display: grid;
+  row-gap: 70px;
+  margin-top: 100px;
 }
 
 .title {
   position: block;
   line-height: 20px;
   font-family: IBM Plex Mono;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 300;
   letter-spacing: 0.15em;
   line-height: 20px;
@@ -38,19 +31,15 @@ p{
 .title:visited {
   color: rgba(0, 0, 0, 0.8);
   text-decoration: none;
+  position: absolute;
+  top: 40px;
+  left: 40px;
 }
 
-.light-buttons {
-  display: flex;
-}
-
-.middle {
-  flex-shrink: 0;
-  margin-left: 50px;
-}
-
-.right {
-  margin-left: 70px;
+.page-links {
+  display: inline-block;
+  width: 100px;
+  line-height: 22px;
 }
 
 .text,
@@ -90,7 +79,6 @@ p{
   color:rgb(94, 89, 119);
   border-color:rgb(94, 89, 119);
   text-decoration: none;
-  margin-right: 100px;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 8px;
@@ -100,6 +88,9 @@ p{
   font-family: Ballet;
   font-size:20px;
   transition: 0.15s;
+  position: absolute;
+  top: 145px;
+  left: 140px;
 }
 
 .works-button:hover {
@@ -113,7 +104,6 @@ p{
   text-decoration: none;
   color:rgb(229, 76, 34);
   border:none;
-  margin-right: 28px;
 }
 
 .journals-1 {
@@ -191,26 +181,15 @@ p{
   flex-shrink: 0;
 }
 
-.journal-buttons {
-  position: absolute;
-  top: 120px;
-  right: 40px;
-}
-
 .archive-link:hover {
   color:rgb(229, 76, 34);
   background-color:  rgba(254, 215, 255, 0.754);
 }
 
-.today {
-  position: absolute;
-  top: 120px;
-  left: 40px;
-}
-
 .today-text {
   color: rgb(22, 22, 57);
   font-size: 11px;
+  width: 240px;
   padding: 30px;
   line-height: 20px;
   text-align: left;
@@ -224,15 +203,10 @@ p{
 }
 
 .small-title {
-  display: block;
   font-size: 11px;
   margin: 0;
   letter-spacing: 0.22em;
   color: rgb(22, 22, 57);
-}
-
-.highlight {
-  background-color: white;
 }
 
 .container {
