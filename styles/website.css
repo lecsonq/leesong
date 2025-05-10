@@ -39,9 +39,9 @@ p{
 }
 
 .page-links {
-  display: inline-block;
-  width: 90px;
-  line-height: 22px;
+    display: flex;
+    line-height: 20px;
+    flex-direction: column;
 }
 
 .text,
@@ -51,7 +51,7 @@ p{
 .punctum,
 .art {
   font-family: IBM Plex Mono;
-  font-size:12px;
+  font-size:11px;
   color:rgba(0, 0, 0, 0.80);
   text-decoration: none;
   letter-spacing: 0.007em;
@@ -72,14 +72,14 @@ p{
 .text:visited,
 .jpeg:visited {
   font-family: IBM Plex mono;
-  font-size:12px;
+  font-size:11px;
   color:rgba(0, 0, 0, 0.80);
   text-decoration: none;
 }
 
 .archive-link {
   font-family: IBM plex mono;
-  font-size: 12px;
+  font-size: 11px;
   text-decoration: none;
   color:rgba(0, 0, 0, 0.80);
   border:none;
