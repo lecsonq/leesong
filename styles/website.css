@@ -169,7 +169,7 @@ p{
   color:rgba(0, 0, 0, 0.80);
   background-color: rgb(241, 241, 241);
   font-size: 11px;
-  width: 240px;
+  width: 200px;
   padding: 25px;
   line-height: 20px;
   text-align: left;
@@ -193,7 +193,7 @@ p{
   padding-left: 20px;
   cursor: pointer;
   font-family: IBM Plex Mono;
-  line-height:24px;
+  line-height:22px;
   color:rgba(0, 0, 0, 0.80);
 }
 
