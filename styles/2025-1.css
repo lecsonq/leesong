@@ -29,18 +29,17 @@ body {
 }
 
 figcaption {
-  font-family: pinyon-script;
-  font-size: 24px;
-  margin-top: -18px;
+  font-family: pinyon script;
+  font-size: 17px;
+  margin-top: -11px;
   text-align: right;
-  color:rgba(0, 0, 0, 0.7);
 }
 
 h1 {
-  font-family: pinyon-script;
+  font-family: pinyon script;
   font-weight: 400;
-  font-size: 22px;
-  letter-spacing: 0.16em;
+  font-size: 24px;
+  letter-spacing: -0.01em;
   color: rgb(67, 63, 84);
   margin-bottom: 80px;
   margin-top: 20px;
