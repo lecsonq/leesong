@@ -164,77 +164,9 @@ p{
   flex-shrink: 0;
 }
 
-.today-text {
-  color:rgba(0, 0, 0, 0.80);
-  background-color: rgb(241, 241, 241);
-  font-size: 11px;
-  width: 200px;
-  padding: 25px;
-  line-height: 20px;
-  text-align: left;
-  flex-shrink: 0;
-  margin: 0;
-  font-family: IBM Plex Mono;
-  line-height:24px;
-  color:rgba(0, 0, 0, 0.80);
-}
-
 .small-title {
   font-size: 11px;
   margin: 0;
   letter-spacing: 0.22em;
   color:rgba(0, 0, 0, 0.80);
 }
-
-.container {
-  display: block;
-  position: relative;
-  padding-left: 20px;
-  cursor: pointer;
-  font-family: IBM Plex Mono;
-  line-height:22px;
-  color:rgba(0, 0, 0, 0.80);
-}
-
-.container input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;      
-}
-
-.checkmark {
-  position: absolute;
-  top: 8px;
-  left: 1px;
-  height: 7px;
-  width: 7px;
-  border: solid rgba(0, 0, 0, 0.80) 1px;
-}
-
-.container input:checked ~ .checkmark {
-background-color: transparent;
-}
-
-.checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
-.container input:checked ~ .checkmark:after {
- display: block;
-}
-
-.container .checkmark:after {
-  left: 2px;
-  top: 0.5px;
-  width: 2px;
-  height: 3px;
-  border: solid rgba(0, 0, 0, 0.80);
-  border-width: 0px 1.5px 1.5px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-  }
