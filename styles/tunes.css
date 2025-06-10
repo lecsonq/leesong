@@ -1,8 +1,6 @@
 body {
 margin: 37px;
 padding: 100px;
-height: fit-content;
-margin-bottom: 50px;
 }
 
 .title {
@@ -19,6 +17,18 @@ margin-bottom: 50px;
   text-decoration: none;
 }
 
+.back-link,
+.back-link:active {
+  text-decoration: none;
+  font-size:13px;
+  letter-spacing: 0.2em;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: futura;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
 h1 {
   font-family: IBM Plex Mono;
   font-size: 30px;
@@ -32,6 +42,7 @@ h1 {
 h2 {
   font-family: IBM Plex Mono;
   font-size: 13px;
+  margin: 0;
 }
 
 p {
@@ -40,28 +51,25 @@ p {
   line-height: 18px;
 }
 
-.video {
-  box-shadow: none;
-  border: none;
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 150px;
+}
+
+.container {
+  justify-content: flex-start;
+  display: flex;
+  overflow: auto;
 }
 
 .video-section {
-  margin-bottom: 70px;
+  margin-right: 100px;
+align-content: end;
 }
 
-.content {
-  padding-left: 100px;
-  justify-content: center;
-}
-
-.back-link,
-.back-link:active {
-  text-decoration: none;
-  font-size:13px;
-  letter-spacing: 0.2em;
-  color: rgba(0, 0, 0, 0.7);
-  font-family: futura;
-  position: absolute;
-  top: 20px;
-  left: 20px;
+.video {
+  box-shadow: none;
+  border: none;
+  margin: 0;
 }
