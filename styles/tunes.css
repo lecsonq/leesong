@@ -1,6 +1,7 @@
 body {
 margin: 37px;
 padding: 100px;
+justify-items: center;
 }
 
 .title {
@@ -61,11 +62,12 @@ p {
   justify-content: flex-start;
   display: flex;
   overflow: auto;
+  width: 650px;
 }
 
 .video-section {
   margin-right: 100px;
-align-content: end;
+  align-content: end;
 }
 
 .video {
