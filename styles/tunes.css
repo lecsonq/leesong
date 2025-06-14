@@ -1,7 +1,7 @@
 body {
-margin: 37px;
-padding: 100px;
-justify-items: anchor-center;
+  margin: 0;
+  padding: 100px;
+  justify-items: anchor-center;
 }
 
 .title {
