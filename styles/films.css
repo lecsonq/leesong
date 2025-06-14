@@ -47,7 +47,8 @@ figcaption {
 }
 
 .still-image {
-  height: 300px;
+  max-width: 100%;
+  height: auto;
 }
 
 .back-link,
