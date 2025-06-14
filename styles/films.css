@@ -27,10 +27,9 @@ h1 {
 }
 
 .content {
-  height: 360px;
-  overflow: auto;
+  height: 360px; 
   margin: auto;
-  margin-top: 220px;
+  margin-top: 100px;
 }
 
 figcaption {
@@ -40,9 +39,9 @@ figcaption {
   margin-top: 4px;
 }
 
-.image-flex {
-  display: flex;
-  flex-direction: row;
+.image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 100px;
 }
