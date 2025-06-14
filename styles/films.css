@@ -42,6 +42,7 @@ figcaption {
 
 .image {
   max-width: 100%;
+  min-width: 350px;
   height: auto;
 }
 
