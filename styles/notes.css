@@ -3,6 +3,12 @@ body {
   padding: 100px;
 }
 
+p {
+  font-family: IBM Plex Mono;
+  font-size: 11px;
+  line-height: 18px;
+}
+
 .title {
   position: absolute;
   top: 40px;
@@ -45,4 +51,11 @@ h1 {
   margin-top: 70px;
   font-family: IBM plex mono;
   font-size: 12px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  max-width: 40%;
 }
