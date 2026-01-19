@@ -3,7 +3,7 @@ h1 {
   font-size: 18px;
   font-weight: 400;
   margin: 0;
-  margin-bottom: 15px;
+  margin-bottom: 18px;
 }
 
 p {
@@ -50,25 +50,35 @@ p {
   left: 20px;
 }
 
+.week-number {
+  margin: 0;
+  margin-top: 80px;
+  font-family: IBM Plex Mono;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  color: rgba(0, 0, 0, 0.7);
+}
+
 .weekly-table {
   display: flex;
   flex-direction: row;
   font-family: IBM Plex Mono;
-  margin-top: 90px;
+  margin-top: 20px;
 }
 
 .columns {
   display: inline-block;
   width: 500px;
-  line-height: 13px;
+  line-height: 15px;
 }
 
 .free {
   font-family: IBM Plex Mono;
   font-size: 18px;
   font-weight: 400;
-  color: rgb(166, 168, 173);
+  color: rgb(214, 217, 224);
   display: block;
   margin: 0;
-  margin-bottom: 15px;
+  margin-bottom: 18px;
 }
