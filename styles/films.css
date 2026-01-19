@@ -32,19 +32,21 @@ figcaption {
   font-size: 10px;
   line-height: 13px;
   margin-top: 4px;
+  min-width:  500px;
 }
 
 .content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0px 250px;
   margin-top: 100px;
 }
 
 .image {
-  max-width: 540px;
-  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  max-width: 600px;
   height: auto;
 }
 
@@ -62,5 +64,5 @@ figcaption {
 }
 
 figure {
-  margin-bottom: 350px;
+  margin-bottom: 300px;
 }
