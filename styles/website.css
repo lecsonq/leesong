@@ -90,3 +90,14 @@ body {
   letter-spacing: 0.22em;
   color:rgba(0, 0, 0, 0.80);
 }
+
+.footer {
+    display: grid;
+    position: fixed;
+    right: 13px;
+    bottom: 13px;
+    color:rgba(0, 0, 0, 0.80);
+    font-family: IBM Plex Mono;
+    font-size: 11px;
+    line-height: 18px;
+}
