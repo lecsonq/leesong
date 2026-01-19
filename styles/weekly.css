@@ -1,7 +1,7 @@
 h1 {
   font-family: IBM Plex Mono;
-  font-size: 17px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 400;
   margin: 0;
   margin-bottom: 15px;
 }
@@ -65,8 +65,8 @@ p {
 
 .free {
   font-family: IBM Plex Mono;
-  font-size: 17px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 400;
   color: rgb(166, 168, 173);
   display: block;
   margin: 0;

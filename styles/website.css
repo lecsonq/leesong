@@ -4,9 +4,10 @@ body {
 }
 
 .main-grid {
-  display: grid;
-  row-gap: 70px;
+  display: flex;
+  flex-direction: column;
   margin-top: 100px;
+  line-height: 20px;
 }
 
 .web-title {
