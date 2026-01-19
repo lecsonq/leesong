@@ -1,0 +1,74 @@
+h1 {
+  font-family: IBM Plex Mono;
+  font-size: 17px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+p {
+  font-family: IBM Plex Mono;
+  font-size: 10px;
+  margin: 0;
+}
+
+.special {
+  font-family: IBM Plex Mono;
+  font-size: 10px;
+  color: rgb(8, 133, 92);
+}
+
+.class {
+  font-family: IBM Plex Mono;
+  font-size: 10px;
+  color: rgb(241, 90, 35);
+}
+
+.title {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  line-height: 20px;
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+}
+
+.back-link,
+.back-link:active {
+  text-decoration: none;
+  font-size:13px;
+  letter-spacing: 0.2em;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: futura;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.weekly-table {
+  display: flex;
+  flex-direction: row;
+  font-family: IBM Plex Mono;
+  margin-top: 90px;
+}
+
+.columns {
+  display: inline-block;
+  width: 500px;
+  line-height: 13px;
+}
+
+.free {
+  font-family: IBM Plex Mono;
+  font-size: 17px;
+  font-weight: 500;
+  color: rgb(166, 168, 173);
+  display: block;
+  margin: 0;
+  margin-bottom: 15px;
+}
