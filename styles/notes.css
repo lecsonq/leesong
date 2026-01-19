@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 100px;
+}
+
+.title {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  line-height: 20px;
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+}
+
+h1 { 
+  font-family: IBM Plex Mono;
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 0.15em;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 50px;
+}
+
+.back-link,
+.back-link:active {
+  text-decoration: none;
+  display: block;
+  font-size:13px;
+  letter-spacing: 0.2em;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: futura;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.notes-content {
+  margin: 0;
+  margin-top: 70px;
+  font-family: IBM plex mono;
+  font-size: 12px;
+}
