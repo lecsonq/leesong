@@ -39,11 +39,7 @@ body {
   align-items: flex-start;
 }
 
-.text,
 .films,
-.tunes,
-.jpeg,
-.punctum,
 .art {
   font-family: IBM Plex Mono;
   font-size:11px;
@@ -54,22 +50,10 @@ body {
   margin-top: -1px;
 }
 
-.text:hover,
 .films:hover,
-.tunes:hover,
-.jpeg:hover,
-.punctum:hover,
 .art:hover {
   text-decoration: underline;
   text-underline-offset: 3px;
-}
-
-.text:visited,
-.jpeg:visited {
-  font-family: IBM Plex mono;
-  font-size:11px;
-  color:rgba(0, 0, 0, 0.80);
-  text-decoration: none;
 }
 
 .archive-link {
