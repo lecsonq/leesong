@@ -18,6 +18,11 @@ p {
   margin: 0;
 }
 
+.weekly-text ul {
+  list-style: none;
+  padding-left: 0;
+}
+
 .special {
   font-family: IBM Plex Mono;
   font-size: 10px;
