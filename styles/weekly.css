@@ -4,6 +4,7 @@ h1 {
   font-weight: 400;
   margin: 0;
   margin-bottom: 18px;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 h2 {
@@ -16,6 +17,7 @@ p {
   font-family: IBM Plex Mono;
   font-size: 10px;
   margin: 0;
+  color: rgba(50, 50, 50, 0.7);
 }
 
 .weekly-text ul {
@@ -32,13 +34,19 @@ p {
 .fixed {
   font-family: IBM Plex Mono;
   font-size: 10px;
-  color: rgb(144, 118, 96);
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .class {
   font-family: IBM Plex Mono;
   font-size: 10px;
   color: rgb(213, 181, 39);
+}
+
+.cinema {
+  font-family: IBM Plex Mono;
+  font-size: 10px;
+  color: rgb(101, 122, 219);
 }
 
 .title {
@@ -84,7 +92,7 @@ p {
   margin-bottom: 120px;
   padding: 30px 30px;
   padding-bottom: 90px;
-  border: 0.5px solid black;
+  border: 0.5px solid  rgba(50, 50, 50, 0.7);
 }
 
 .columns {
